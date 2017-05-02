@@ -1,0 +1,22 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	// border-color: $color__border-button;
+	border-color: $color__sand;
+	background-color: $color__sand;
+
+	color: $color__dgray;
+	@include font-size(0.75);
+	line-height: 1;
+	padding: .5em 1em;
+
+	&:hover,
+	&:active,
+	&:focus {
+		color: $color__dgray;
+	border-color: $color__gold;
+	background-color: $color__gold;
+	}
+}
